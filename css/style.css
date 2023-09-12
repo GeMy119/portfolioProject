@@ -1,0 +1,615 @@
+body {
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+    border: none;
+    line-height: normal;
+    padding: 0;
+}
+
+.header {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header-item {
+    height: 100vh;
+}
+
+.header-item h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.heading {
+    color: #fff;
+}
+
+.typing::after {
+    content: "";
+    animation: 5s alternate infinite typing-animation;
+    /* border-right :1px solid #fff ; */
+}
+
+@keyframes typing-animation {
+    0% {
+        content: "";
+
+    }
+
+    2% {
+        content: "w";
+    }
+
+    4% {
+        content: "we";
+    }
+
+    6% {
+        content: "web";
+
+    }
+
+    8% {
+        content: "web ";
+    }
+
+    10% {
+        content: "web D";
+    }
+
+    12% {
+        content: "web De";
+    }
+
+    14% {
+        content: "web Dev";
+    }
+
+    16% {
+        content: "web Deve";
+    }
+
+    18% {
+        content: "web Devel";
+    }
+
+    20% {
+        content: "web Develo";
+    }
+
+    22% {
+        content: "web Develop";
+    }
+
+    24% {
+        content: "web Develope";
+    }
+
+    26% {
+        content: "web Developer";
+    }
+
+    28% {
+        content: "web De";
+    }
+
+    30% {
+        content: "web Des";
+    }
+
+    32% {
+        content: "web Desi";
+    }
+
+    34% {
+        content: "web Desig";
+    }
+
+    36% {
+        content: "web Design";
+    }
+
+    38% {
+        content: "web Designe";
+    }
+
+    40% {
+        content: "web Designer";
+    }
+
+    42% {
+        content: "";
+    }
+
+    44% {
+        content: "F";
+    }
+
+    46% {
+        content: "Fr";
+    }
+
+    48% {
+        content: "Fro";
+    }
+
+    50% {
+        content: "Front";
+    }
+
+    52% {
+        content: "Fronte";
+    }
+
+    54% {
+        content: "Fronten";
+    }
+
+    56% {
+        content: "Frontend";
+    }
+
+    58% {
+        content: "Frontend ";
+    }
+
+    60% {
+        content: "Frontend D";
+    }
+
+    62% {
+        content: "Frontend De";
+    }
+
+    64% {
+        content: "Frontend dev";
+    }
+
+    66% {
+        content: "Frontend deve";
+    }
+
+    68% {
+        content: "Frontend devel";
+    }
+
+    70% {
+        content: "Frontend develo";
+    }
+
+    72% {
+        content: "Frontend develop";
+    }
+
+    74% {
+        content: "Frontend develope";
+    }
+
+    76% {
+        content: "Frontend developer";
+    }
+
+    78% {
+        content: "";
+    }
+
+    80% {
+        content: "G";
+    }
+
+    82% {
+        content: "Gr";
+    }
+
+    84% {
+        content: "Gra";
+    }
+
+    86% {
+        content: "Grap";
+    }
+
+    88% {
+        content: "Graph";
+    }
+
+    90% {
+        content: "Graphi";
+    }
+
+    92% {
+        content: "Graphic";
+    }
+
+    100% {
+        content: "";
+    }
+}
+
+.underline {
+    background-color: #0078ff;
+    height: 2px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.bg {
+    background-color: #f5f5f5;
+    box-shadow: 5px;
+}
+
+.about .row {
+    background-color: #fff;
+    box-shadow: 10px rgba(0, 0, 0, 0.6);
+}
+
+.about-p-space2 {
+    padding: 25px 0;
+}
+
+.services-item {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.underline-services {
+    background-color: #0078ff;
+    height: 2px;
+    width: 100px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.head-layer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.count-number {
+
+    background-image: url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.count-number .row {
+    padding: 8rem 0;
+}
+
+.layer-count {
+    background-color: rgba(0, 125, 255, 0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.services-icon {
+    font-size: 50px;
+}
+
+.services-item {
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 10px rgba(0, 0, 0, 0.2);
+}
+
+.icons-services-span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #0078ff;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+
+.services-item:hover .icons-services-span {
+    color: #fff;
+    box-shadow: 0 0 0 10px rgba(0, 125, 255, 0.6);
+    background-color: #0078ff;
+}
+
+.coun-icon-span {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #cde1f8;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.portfolio-icon {
+    font-size: 30px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    padding: 15px 10px;
+}
+
+.portfolio-component {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.portfolio-component img {
+    transition: all 1s;
+}
+
+.portfolio-component:hover img {
+    transform: scale(1.2, 1.2);
+    overflow: \\\\\\;
+}
+
+.carousel-content img {
+    border-radius: 50%;
+}
+
+.carousel-about {
+    padding: 15px;
+}
+
+.carousel-icon-width {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #0078ff;
+    translate: x(50%);
+    margin: auto;
+}
+
+.carousel-inner {
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.carousel-layer {
+    background-color: rgba(0, 125, 255, 0.6);
+}
+
+.blog-foter img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.blog-items {
+    background-color: #fff;
+}
+
+.word-web {
+    color: #fff;
+    background-color: #0078ff;
+    padding: 5px 15px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    bottom: 18.5;
+}
+
+.get-contact-icons {
+    color: #0078ff;
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.footer {
+    background-color: #0062d3;
+    color: #fff;
+}
+
+#contact {
+
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+}
+
+#contact .row {
+    background-color: #fff;
+}
+
+.form-element label,
+textarea {
+    padding: 10px 0;
+}
+
+.btn {
+    border-radius: 25px;
+    transition: all 1s;
+}
+
+.btn:hover {
+    box-shadow: 10px #cde1f8;
+    opacity: 0.8;
+}
+
+.contact-icons span {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #0078ff;
+    /* display: block; */
+    margin-right: 15px;
+    transition: all 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icons span:hover {
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(0, 125, 255, 0.6);
+    background-color: #0078ff;
+}
+
+.contact-layer {
+    width: 100%;
+    background-color: rgba(0, 125, 255, 0.6);
+
+}
+
+#top {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 125, 255);
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #0078ff;
+    color: #fff;
+    transition: none 2s;
+    display: none;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+#loading {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #0078ff;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lds-grid {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-grid div {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    animation: lds-grid 1.2s linear infinite;
+}
+
+.lds-grid div:nth-child(1) {
+    top: 8px;
+    left: 8px;
+    animation-delay: 0s;
+}
+
+.lds-grid div:nth-child(2) {
+    top: 8px;
+    left: 32px;
+    animation-delay: -0.4s;
+}
+
+.lds-grid div:nth-child(3) {
+    top: 8px;
+    left: 56px;
+    animation-delay: -0.8s;
+}
+
+.lds-grid div:nth-child(4) {
+    top: 32px;
+    left: 8px;
+    animation-delay: -0.4s;
+}
+
+.lds-grid div:nth-child(5) {
+    top: 32px;
+    left: 32px;
+    animation-delay: -0.8s;
+}
+
+.lds-grid div:nth-child(6) {
+    top: 32px;
+    left: 56px;
+    animation-delay: -1.2s;
+}
+
+.lds-grid div:nth-child(7) {
+    top: 56px;
+    left: 8px;
+    animation-delay: -0.8s;
+}
+
+.lds-grid div:nth-child(8) {
+    top: 56px;
+    left: 32px;
+    animation-delay: -1.2s;
+}
+
+.lds-grid div:nth-child(9) {
+    top: 56px;
+    left: 56px;
+    animation-delay: -1.6s;
+}
+
+@keyframes lds-grid {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .services-items,
+    .portfolio-component,
+    .blog-items,
+    .send-messege,
+    .get,
+    .count-item,
+    .profile,
+    .about {
+        margin: 15px 0px !important;
+    }
+
+    .portfolio-caption h4 {
+        padding-top: 30px;
+    }
+
+    /* .navbar {
+        background-color: #fff !important;
+    }
+
+    .nav-link,
+    .navbar-brand,
+    .navbar-toggler-icon {
+        color: #000 !important;
+    } */
+}
